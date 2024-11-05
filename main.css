@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    display: flex;
+    color: #000000;
+    background-color: #3498db;
+    padding: 16px 0;
+    display: flex;
+    border-bottom: 16px solid #bca8d6;
+    justify-content: center;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+body {
+    background-image: url(img/9x16_flowers_blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    width: 500px;
+    height: 800px;
+    margin: 0 auto; 
+    border: 2px solid #3498db; 
+    background-color: #6500a0;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)
+}
+
+.tarefa {
+    cursor: pointer;
+}
+.marcada {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#input-tarefa {
+    background-color: #e1ceff;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    padding: 8px;
+    margin: 16px;
+}
+
+#botao {
+    font-size: 18px;
+    background-color: #3498db;
+    justify-content: center;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 16px;
+    cursor: pointer;
+}
